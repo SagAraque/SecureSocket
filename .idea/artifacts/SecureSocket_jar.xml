@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SecureSocket:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SecureSocket_jar</output-path>
+    <root id="archive" name="SecureSocket.jar">
+      <element id="module-output" name="SecureSocket" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.10.7/byte-buddy-1.10.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
