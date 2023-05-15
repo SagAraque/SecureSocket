@@ -142,7 +142,7 @@ public class SecureSocket {
         writeData(encryptedData, hash);
     }
 
-    private byte[] read() throws IOException, IllegalBlockSizeException, BadPaddingException, InvalidKeyException, DataFormatException
+    private byte[] read() throws IOException, IllegalBlockSizeException, BadPaddingException, InvalidKeyException
     {
         byte[] data = readData();
         byte[] hash = readData();
@@ -171,7 +171,7 @@ public class SecureSocket {
         return null;
     }
 
-    public String readUTF() throws IllegalBlockSizeException, IOException, BadPaddingException, InvalidKeyException, DataFormatException
+    public String readUTF() throws IllegalBlockSizeException, IOException, BadPaddingException, InvalidKeyException
     {
         byte[] data = read();
         String dataUTF = null;
